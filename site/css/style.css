@@ -1,0 +1,37 @@
+*{ padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+font-size: 16px;
+font-family: 'Oxygen',sans-serif;
+}
+ .navbar-brand h1,.navbar-brand a:hover{
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	text-decoration:none;
+	margin:0;
+}
+#header-nav{
+border-bottom: 1px solid black;}
+div{margin-right: 10px;}
+#Chicken,#Beef,#Sushi{
+border:1px solid black;
+		height: 150px;
+		margin:10px auto;
+	
+		background-color: #eee;
+		}
+#nav-list  a{text-align:center;}
+#nav-list a:hover{background:#e7e7e7;
+                    font-weight: bold;}
+@media(max-width: 767px){
+	#Chicken,#Beef,#Sushi{
+
+		width: 90%;
+		margin-left: 20px;
+		
+	}
+}
+div h3, div h2{font-weight: bold;}
